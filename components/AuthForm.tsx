@@ -36,10 +36,18 @@ const AuthForm = ({type}: {type: string}) => {
   //2.Defina a submit handler
   const onSubmit = async (data: z.infer<typeof formSchema>) => {
     setIsLoading(true);
-    setTimeout(()=>{
+    if(type === "sign-in"){
+          setTimeout(()=>{
         setIsLoading(false);
         router.push("/dashboard");
-    },2000)
+         },2000)
+    }else if(type === "sign-up"){
+        setTimeout(()=>{
+            setIsLoading(false);
+            router.push("/agreement");
+             },2000)
+    }
+  
   };
   return (
     <section className="auth-form px-10 w-full">
