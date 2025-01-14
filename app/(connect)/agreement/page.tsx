@@ -1,6 +1,7 @@
 import { Shield, Lock, FastForward, DollarSign, Building2 } from "lucide-react";
 import React from "react";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const agreementDetails = [
   {
@@ -64,12 +65,15 @@ const Agreement = () => {
                 ))}
 
                 <div className="w-full ">
-                  <Button
+                    <Link href="/choose">
+                      <Button
                     className="bg-black hover:opacity-85 text-white w-full"
                     size="lg"
                   >
                     Allow Access
                   </Button>
+                    </Link>
+                
                 </div>
                 {/* Footer Note */}
                 <p className="text-center text-sm text-white/60">
