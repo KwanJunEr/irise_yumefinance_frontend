@@ -1,4 +1,6 @@
+import MobileNav from "@/components/MobileNav";
 import Sidebar from "@/components/Sidebar";
+import Image from "next/image";
 
 
 export default async function RootLayout({ children,
@@ -6,9 +8,15 @@ export default async function RootLayout({ children,
   children: React.ReactNode;
 }>){
     return(
-        <main className="flex h-screen w-full ">
+        <main className="flex h-screen w-full">
             <Sidebar/>
-            <div >
+            <div className="flex size-full flex-col" >
+                <div className="root-layout">
+                    <Image src = "/logo.svg" width={30} height={30} alt="logo"/>
+                    <div>
+                        <MobileNav/>
+                    </div>
+                </div>
                 {children}
             </div>
         </main>
