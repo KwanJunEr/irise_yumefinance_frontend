@@ -28,8 +28,8 @@ export const sidebarLinks = [
   },
   {
     icon: History,
-    route: "/transactionhistory",
-    label: "Transaction History",
+    route: "/spendinghistory",
+    label: "Spending History",
   },
   {
     icon: Gift,
