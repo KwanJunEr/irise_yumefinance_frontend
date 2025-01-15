@@ -50,7 +50,10 @@ const config: Config = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+			blue:{
+				25: "#F5FAFF",
+			}
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
@@ -59,6 +62,7 @@ const config: Config = {
   		},
 		boxShadow:{
 			form: "0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
+			
         chart:
           "0px 1px 3px 0px rgba(16, 24, 40, 0.10), 0px 1px 2px 0px rgba(16, 24, 40, 0.06)",
         profile:
