@@ -200,3 +200,12 @@
 .footer_image {
   @apply relative size-5 max-xl:w-full max-xl:flex max-xl:justify-center max-xl:items-center;
 }
+
+  /* Mobile nav */
+  .mobilenav-sheet {
+    @apply flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto;
+  }
+
+  .mobilenav-sheet_close {
+    @apply flex gap-3 items-center p-4 rounded-lg w-full max-w-60;
+  }
