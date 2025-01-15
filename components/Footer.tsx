@@ -13,7 +13,7 @@ const router = useRouter();
   };
  
     return (
-    <footer className='footer mt-9'>
+    <footer className='footer mt-9 '>
         <div className={type === 'mobile' ? 'footer_name-mobile' : 'footer_name'}>
         <p className="text-xl font-bold text-gray-700">
             JK

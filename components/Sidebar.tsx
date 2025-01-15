@@ -11,7 +11,7 @@ const Sidebar = () => {
     const pathname = usePathname();
   return (
     <section className='sidebar'>
-        <nav className='flex flex-col gap-4 '>
+        <nav className='flex flex-col gap-4 relative'>
             <Link href = "/dashboard" className="mb-12 cursor-pointer flex items-center gap-2">
                 <Image
                      src="/logo.svg"

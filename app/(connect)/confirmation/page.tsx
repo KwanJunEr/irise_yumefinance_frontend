@@ -121,7 +121,7 @@ export default function Confirmation() {
           >
             <Link href="/sign-in">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                Continue to Dashboard
+                Continue to Sign In
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>
