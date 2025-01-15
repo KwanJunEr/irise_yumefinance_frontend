@@ -119,7 +119,7 @@ export default function Confirmation() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1 }}
           >
-            <Link href="/dashboard">
+            <Link href="/sign-in">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                 Continue to Dashboard
                 <ArrowRight className="ml-2 h-4 w-4" />
